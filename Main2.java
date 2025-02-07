@@ -10,7 +10,6 @@ public class Main2 {
 
         
         for (int i = 0; i < str.length(); i++) {
-            
             if ((i + 1) % 3 == 0) {
                 char prevChar = str.charAt(i - 1);
                 modifiedString.append(String.valueOf(prevChar).repeat(i)); 
