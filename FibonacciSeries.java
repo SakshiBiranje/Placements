@@ -8,8 +8,8 @@ Ex. I/p: 7649833
 Ans. 98
 */
 import java.util.Scanner;
-public class FibonacciSeries{
-    public static void main(String[] args){
+public class FibonacciSeries {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter size of array:");
         int n = sc.nextInt();
