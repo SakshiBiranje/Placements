@@ -12,7 +12,7 @@ public class ReverseInteger {
     }
 
 
-    public static int ReverseInt(int no){
+    public static int ReverseInt(int no) {
         boolean flag = false;
         if(no<0){
             no= 0-no;
