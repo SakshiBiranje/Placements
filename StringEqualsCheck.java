@@ -30,7 +30,7 @@ public class StringEqualsCheck{
     s2.charAt(first)== s1.charAt(second);
 }
 
-public static void main(String[] args){
+public static void main(String[] args) {
     String s1 = "bank";
     String s2 = "kanb";
     StringEqualsCheck obj = new StringEqualsCheck();
